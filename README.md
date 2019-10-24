@@ -10,3 +10,5 @@ To install Maven, follow [this tutorial](https://github.com/rajivkanaujia/alphaw
 3. Once you have mvn running, go to the qa-automation folder, where you can:
  - Run all of the tests with `mvn test`
  - Run a specific test with `mvn -Dtest=testName test`
+
+### If the tests still don't run, its best to open the project in Intellij and run it from there.
