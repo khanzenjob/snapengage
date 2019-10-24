@@ -12,3 +12,5 @@ To install Maven, follow [this tutorial](https://github.com/rajivkanaujia/alphaw
  - Run a specific test with `mvn -Dtest=testName test`
 
 ### If the tests still don't run, its best to open the project in Intellij and run it from there.
+
+##the screenshot for the login test will generate in screenshot folder inside the project
