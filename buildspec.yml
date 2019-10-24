@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+  pre_build:
+    commands:    
+      - export QA_ETC=/root
+  build:
+    commands:
+      - QA_ETC="/root" mvn test
+cache:
+  paths:
+    - '/root/.m2/**/*'
